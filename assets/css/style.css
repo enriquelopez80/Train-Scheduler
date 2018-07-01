@@ -1,0 +1,73 @@
+body {
+    background: url("../images/surfliner.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+    text-align: center;
+    border-bottom: solid 1px;
+    background-color: rgb(15, 140, 250);
+    border-color: black;
+}
+
+.dateTime {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 500px;
+    margin: 20px;
+    font-size: 40px;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    color: white;
+    padding: 10px;
+    background-color: rgb(15, 140, 250, 0.5);
+    border: solid 01px;
+    border-color: black;
+    border-radius: 10px 10px 0px 0px;
+}
+
+th {
+    font-size: 25px;
+}
+
+.section-schedule {
+    color: white;
+    border: solid 01px;
+    border-color: black;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.section-train {
+    color: white;
+    border: solid 01px;
+    border-color: black;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+
+form {
+    padding: 15px;
+}
